@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Md Shaad Rehan</title>
+  </head>
+  <body>
+    <nav>
+      <div class="first_part">
+        <div class="navbarLogo">
+          <h1 class="namelogo">Shaad Rehan</h1>
+        </div>
+        <div class="hamburger">
+          <svg class="ham_active" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <svg class="ham_inactive" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="second_part">
+        <ul class="link_list">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About</a>
+          </li>
+          <li><a class="nav-link" href="#skill">Skills</a></li>
+          <li>
+            <!-- <a class="nav-link" href="#Ex-Ed">What I do</a> -->
+          </li>
+          <!-- <li><a class="nav-link" href="./others/others.php">Others</a></li> -->
+          <li><a class="nav-link" href="#project">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="third_part">
+        <a href="#" target="_blank" class="btn res_btn rounded-pill">
+          Resume
+        </a>
+      </div>
+    </nav>
+    
+    <div class="container_contain" data-aos="zoom-in" data-aos-duration="1500">
+      <!-- home section -->
+      <div class="home" id="home">
+        <div class="written_part">
+          <div class="first_written_part">
+            <div class="bold">I'm Md Shaad Rehan and I'm a</div>
+            <div id="text2"></div>
+          </div>
+          <p class="demo_about_me">
+            I'm a MERN stack Developer 👨‍💻 having a special interest in Frontend
+            technologies and experience of building Web applications with
+            JavaScript / Reactjs / Nodejs / PHP and some other Frameworks.
+          </p>
+          <div class="button_group mt-3">
+            <a href="https://github.com/mdshaad783"><button type="button" class="btn btn-primary cnct_btn">
+                Contact Me
+              </button></a>
+            <!-- <a href="https://www.linkedin.com/in/Md-Shaad-Rehan-6a8113230"><button type="button" class="btn btn-success git_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+                View me on Linkedin
+              </button></a> -->
+          </div>
+        </div>
+        <div class="myPic">
+          <img src="owner1.png" alt=""/>
+        </div>
+      </div>
+      <!-- About me section -->
+      <div class="section_title">About me</div>
+      <div class="aboutME" id="aboutMe" data-aos="flip-right" data-aos-duration="2000" >
+        <img class="aboutMe_img" src="coder.png" alt=""/>
+        <p class="aboutMePara">
+          My Name is a Md Shaad Rehan and I am a computer science engineer who
+          has lot of Interest in Programming, Web Development.
+          I am a highly skilled professional developer who loves to take on the
+          challenges and then solve them.
+        </p>
+      </div>
+      <div class="section_title mt-4" id="skill">Skills</div>
+      <div class="skill_section" data-aos="zoom-in-up" data-aos-duration="2000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="progress blue">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"><img src="HTML.svg" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress blue">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"><img src="css.svg" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress blue">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">
+                  <img src="javascript.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress yellow">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">
+                  <img src="bootstrap.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress pink">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"><img src="Git.svg" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress yellow">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"><img src="Node.svg" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress yellow">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">
+                  <img src="python.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress yellow">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"><img src="react.svg" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress yellow">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"><img src="sql.svg" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress pink">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">
+                  <img src="photoshop.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section_title" id="Ex-Ed">Projects</div>
+      <div class="project" id="project" data-aos="zoom-out-up" data-aos-duration="2000">
+        <div class="grid_box project_box">
+          <a href="#">
+            <img class="back_img" src="weather.png" alt="" />
+            <div class="about_project">
+              <h2 class="project_name">Weather Webapp</h2>
+              <p class="project_descr">
+                Weather forecast app using HTML, CSS & JavaScript
+              </p>
+              <div class="project_technology">
+                <img class="technology_icon" src="HTML.svg" alt="" />
+                <img class="technology_icon" src="css.svg" alt="" />
+                <img class="technology_icon" src="javascript.svg" alt="" />
+                <img class="technology_icon" src="API.svg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid_box project_box">
+          <a href="#">
+            <img class="back_img" src="gym-1.jpg" alt="" />
+            <div class="about_project">
+              <h2 class="project_name">Gym website</h2>
+              <p class="project_descr">
+                Gym website,It is a simple project where I created gym website.
+              </p>
+              <div class="project_technology">
+                <img class="technology_icon" src="HTML.svg" alt="" />
+                <img class="technology_icon" src="css.svg" alt="" />
+                <img class="technology_icon" src="javascript.svg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid_box project_box">
+          <a href="#">
+            <img class="back_img" src="marhaba.png" alt="" />
+            <div class="about_project">
+              <h2 class="project_name">Marhaba Food House</h2>
+              <p class="project_descr">
+                  Marhaba,made UI of food website with some of its data stored in database...in progress
+              </p>
+              <div class="project_technology">
+                <img class="technology_icon" src="HTML.svg" alt="" />
+                <img class="technology_icon" src="css.svg" alt="" />
+                <img class="technology_icon" src="bootstrap.png" alt="" />
+                <img class="technology_icon" src="django.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="grid_box project_box">
+          <a href="#">
+            <img class="back_img" src="hotel.png" alt="" />
+            <div class="about_project">
+              <h2 class="project_name">Hotel UI</h2>
+              <p class="project_descr">
+                Hotel,It is a wesite where all my Project url is stored.
+              </p>
+              <div class="project_technology">
+                <img class="technology_icon" src="HTML.svg" alt="" />
+                <img class="technology_icon" src="css.svg" alt="" />
+                <img class="technology_icon" src="javascript.svg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid_box project_box">
+          <a href="#">
+            <img class="back_img" src="flipkart.jpg" alt="" />
+            <div class="about_project">
+              <h2 class="project_name">Flipkart clone</h2>
+              <p class="project_descr">
+                FLipkart clone,It is a FLipart clone where I use Html, CSS and JavaScript.
+              </p>
+              <div class="project_technology">
+                <img class="technology_icon" src="HTML.svg" alt="" />
+                <img class="technology_icon" src="css.svg" alt="" />
+                <img class="technology_icon" src="javascript.svg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        
+        <div class="grid_box project_box">
+          <a href="#">
+            <img class="back_img" src="to_do_list.png" alt="" />
+            <div class="about_project">
+              <h2 class="project_name">TO-do</h2>
+              <p class="project_descr">
+                To-do,It is a website of to do list where I use local storage to
+                save data.
+              </p>
+              <div class="project_technology">
+                <img class="technology_icon" src="HTML.svg" alt="" />
+                <img class="technology_icon" src="css.svg" alt="" />
+                <img class="technology_icon" src="javascript.svg" alt="" />
+                <img class="technology_icon" src="API.svg" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+
+      <div class="section_title" id="contact">Social Media</div>
+      <div class="row contact_section" data-aos="flip-left" data-aos-duration="2000">
+        <div class="col-lg-4 col-sm-12 center_tab">
+          <div class="contact-card phone-card" onclick="mysite()">
+            <div class="contact-card-icon">
+              <img src="instagram.png" alt="">
+            </div>
+            <div class="contact-card-detail">
+              <p class="contact-heading">Instagram</p>
+              <p class="contact-value">mdshaad783</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 center_tab">
+          <div class="contact-card linkedIn-card" onclick="linkedin()">
+            <div class="contact-card-icon">
+              <img
+                src="linkedin.png"
+                alt=""
+              />
+            </div>
+            <div class="contact-card-detail">
+              <p class="contact-heading">LinkedIn</p>
+              <p class="contact-value">Md Shaad Rehan</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 center_tab">
+          <div class="contact-card email-card" onclick="email()">
+            <div class="contact-card-icon">
+              <img
+                src="gmail.png"
+                alt=""
+              />
+            </div>
+            <div class="contact-card-detail">
+              <p class="contact-heading">Email</p>
+              <p class="contact-value">mdshaad783@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="typeWritter.js"></script>
+    <script src="testemonial.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      let ham_active = document.querySelector(".ham_active")
+      let ham_inactive = document.querySelector(".ham_inactive")
+      let second_part = document.querySelector(".second_part")
+      let third_part = document.querySelector(".third_part")
+      ham_active.addEventListener("click",()=>{
+        ham_active.classList.add("inactive");
+        ham_inactive.classList.add("active");
+        second_part.classList.add("active");
+        third_part.classList.add("active");
+      });
+      ham_inactive.addEventListener("click",()=>{
+        ham_active.classList.remove("inactive");
+        ham_inactive.classList.remove("active");
+        second_part.classList.remove("active");
+        third_part.classList.remove("active");
+      });
+
+      function mysite(){
+            window.location = "https://www.instagram.com/mdshaad783?igsh=ZjhlMjF1ZjE1ZGxj"
+        }
+      function linkedin(){
+            window.location = "https://www.linkedin.com/in/%F0%9D%97%A0%F0%9D%97%B1-%F0%9D%97%A6%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%AE%F0%9D%97%B1-%F0%9D%97%A5%F0%9D%97%B2%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%BB-6a8113230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+      function email(){
+            window.location = "https://mdshaad783@gmail.com"
+        }
+      
+    </script>
+  </body>
+</html>

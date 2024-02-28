@@ -787,7 +787,10 @@ nav {
     margin-top:5rem;}
 }
 @media only screen and (max-width: 425px){
-    #skill{
+   #about{
+     margin-bottom:10rem;
+   } 
+  #skill{
       margin-top:10rem;
     }
 }
